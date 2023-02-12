@@ -1,0 +1,21 @@
+#include <stdio.h>
+int greater()
+{
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    if(a>b&&a>c&&a>d)
+       printf("%d",a);
+    if(b>c&&b>d)
+       printf("%d",b);
+    if(c>d)
+       printf("%d",c);
+    if(d>a&&d>b&&d>c)
+       printf("%d",d);
+    return 0;
+}
+int main() {
+    
+    greater();
+
+    return 0;
+}
